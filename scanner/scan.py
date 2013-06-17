@@ -31,7 +31,7 @@ def scan():
     ip = None
     for ip in ip_block():
         result = attempt(ip)
-        if result == 'IAmKeybert':
+        if result == 'iamkeybert':
             print("\n" + ip)
             break
         else:
